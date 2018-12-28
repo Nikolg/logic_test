@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad9bbc7a-1395-456f-9de4-b10b74db769b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/logic_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/keys.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/questions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/questions2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/questions2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/variants.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic_test_good.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions_keys.rb" afterDir="false" />
-    </list>
+    <list default="true" id="ad9bbc7a-1395-456f-9de4-b10b74db769b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/data/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -74,11 +57,6 @@
             <path>
               <item name="logic_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="logic_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logic_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logic_test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,18 +117,17 @@
       <updated>1545918664768</updated>
       <workItem from="1545918666681" duration="1470000" />
       <workItem from="1545933758151" duration="7197000" />
-      <workItem from="1546027173911" duration="50000" />
+      <workItem from="1546027173911" duration="412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8717000" />
+    <option name="totallyTimeSpent" value="9079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -203,7 +180,7 @@
     <entry file="file://$PROJECT_DIR$/data/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
