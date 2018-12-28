@@ -1,30 +1,27 @@
 # encoding: utf-8
 #
 # Тест на абстрактное логическое мышление
-#
+
+require_relative __dir__ + "/" + "lib/test.rb"
+
 name = ARGV[0]
+name = "Гость" if !nil || nil == ""
+
 # Выводим приветствие
-puts "Привет, #{name.encode('UTF-8')}" if name
+puts "Привет, #{name.encode('UTF-8')}"
 puts 'Тест на логику вашего мышления. У вас есть 8 минут на 12 вопросов!'
-
-questions = File.readlines(__dir__ + "/" + "data/questions.txt", chomp: true)
-
-variants = File.readlines(__dir__ + "/" + "data/variants.txt", chomp: true)
-variants.map! { |variant| variant.split("|") }
-
-keys = File.readlines(__dir__ + "/" + "data/keys.txt", chomp: true)
-keys.map! { |key| key.split(",")}
 
 test = Test.new
 
-until test.completed?
+start = Time.now
 
+until test.finished?
+  test.print_next_question
+  test.print_variants
+
+  print "Ответ: "
+  test.process_answer(STDIN.gets.chomp)
+  puts
 end
 
-
-
-puts questions.inspect
-puts
-puts variants.inspect
-puts
-puts keys.inspect
+test.print_result(start, Time.now)
