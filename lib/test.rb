@@ -5,9 +5,7 @@ class Test
     @keys = read_keys
 
     @counter = 1 # номер текущего вопроса
-
     @questions_number = @questions.size # количество вопросов
-
     @score = 0 # количество набранных баллов
   end
 
@@ -84,7 +82,7 @@ class Test
                'и можете «предсказывать» поведение людей из вашего окружения'
              end
 
-    if (finish - start)/60 > 8
+    if (finish - start) / 60 > 8
       puts "К сожалению, вы не уложились в 8 минут"
     else
       puts "Вы уложились в 8 минут"
