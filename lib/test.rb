@@ -4,7 +4,7 @@ class Test
     @variants = read_variants
     @keys = read_keys
 
-    @counter = 1 # номер текущего вопроса
+    @counter = 0 # номер текущего вопроса
     @questions_number = @questions.size # количество вопросов
     @score = 0 # количество набранных баллов
   end
